@@ -1,0 +1,34 @@
+{
+  "name": "lodash-alias-names",
+  "version": "1.0.0",
+  "description": "Alias names of the Lodash methods",
+  "repository": "shinnn/lodash-alias-names",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --format=codeframe .",
+    "test": "node --throw-deprecation --track-heap-objects test.js"
+  },
+  "license": "Unlicense",
+  "files": [
+    "index.json"
+  ],
+  "keywords": [
+    "api",
+    "lodash",
+    "json",
+    "name",
+    "method",
+    "alias",
+    "object",
+    "combination"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.9.1",
+    "get-lodash-aliases": "^1.0.0",
+    "tape": "^4.6.2"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn/node"
+  }
+}

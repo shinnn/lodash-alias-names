@@ -1,0 +1,27 @@
+{
+  "head": [
+    "first"
+  ],
+  "forEach": [
+    "each"
+  ],
+  "forEachRight": [
+    "eachRight"
+  ],
+  "assignIn": [
+    "extend"
+  ],
+  "assignInWith": [
+    "extendWith"
+  ],
+  "toPairs": [
+    "entries"
+  ],
+  "toPairsIn": [
+    "entriesIn"
+  ],
+  "prototype.value": [
+    "prototype.toJSON",
+    "prototype.valueOf"
+  ]
+}
